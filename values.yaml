@@ -74,8 +74,8 @@ quarkus:
     replicas: 2
 
     env:
-      name: ENVIRONMENT
-      value: prod
+     - name: ENVIRONMENT
+       value: prod
 
     ## Freeform resources for Quarkus. More information: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
     resources:
